@@ -408,10 +408,10 @@ footer a {
 #upsquer {
   position: fixed;
   right: 2px;
-  background-color: rgb(255, 255, 255, 70%);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   border: 1px solid;
-  bottom: 310px;
+  bottom: 200px;
   border-radius: 7px;
   font-size: 2rem;
   border-color: white;
@@ -421,10 +421,10 @@ footer a {
 #downsquer {
   position: fixed;
   right: 2px;
-  background-color: rgb(255, 255, 255, 70%);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   border: 1px solid;
-  bottom: 160px;
+  bottom: 40px;
   border-radius: 7px;
   font-size: 2rem;
   border-color: white;
@@ -434,10 +434,10 @@ footer a {
 #calendar {
   position: fixed;
   right: 2px;
-  background-color: rgb(255, 255, 255, 70%);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   border: 1px solid;
-  bottom: 235px;
+  bottom: 120px;
   border-radius: 7px;
   font-size: 2rem;
   border-color: white;
@@ -473,4 +473,13 @@ section {
 section h2 {
   position: absolute;
   top: -25px;
+}
+
+@media screen and (min-width: 1200px) {
+  #upsquer {
+    bottom: 680px;
+  }
+  #calendar {
+    bottom: 600px;
+  }
 }
