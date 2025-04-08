@@ -443,10 +443,34 @@ footer a {
   border-color: white;
   color: #d66c6c;
 }
-aside {
+aside div {
   position: relative;
 }
 
-#tag {
+#tag1 {
   position: absolute;
+  right: 9px;
+  font-size: 64px;
+  top: 7px;
+}
+#tag2 {
+  position: absolute;
+  right: 9px;
+  font-size: 64px;
+  top: 7px;
+}
+#tag3 {
+  position: absolute;
+  right: 9px;
+  font-size: 64px;
+  top: 7px;
+}
+
+section {
+  position: relative;
+}
+
+section h2 {
+  position: absolute;
+  top: -25px;
 }
